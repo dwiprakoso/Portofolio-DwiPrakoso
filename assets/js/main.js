@@ -22,6 +22,7 @@
       if (all) {
         selectEl.forEach(e => e.addEventListener(type, listener))
       } else {
+        
         selectEl.addEventListener(type, listener)
       }
     }
